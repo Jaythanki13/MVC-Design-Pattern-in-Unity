@@ -19,7 +19,7 @@ Below we will show you how to make out tank move across the map with the help of
 
 Before Jumping on to the game code example, We would like to revise the concepts of MVC via the below snippet:
 
-Image
+![](Images/3.png)
 
 Let’s Begin with the code implementation starting by writing the logic for the movement in Controller script,
 
@@ -27,7 +27,7 @@ Let’s Begin with the code implementation starting by writing the logic for the
 1. It will be responsible for storing the business logic for moving the tank
 2. It will also contain the references of Model and View so that the program of the player tank can easily communicate with each other
 
-Image
+![](Images/Controller.png)
 
 In the above we can observe the following:
 1. Getter and Setter methods of Tank Model and Tank View script will be called in this script
@@ -37,7 +37,7 @@ In the above we can observe the following:
 1. TankView will always be a MonoBehavior class.
 2. This script will have all the details about all the visible components in our game system like tanks, bullets, enemies, random power Ups, collectables, etc.
 
-Image
+![](Images/View.png)
 
 In the above we can observe the following:
 
@@ -47,7 +47,7 @@ In the above we can observe the following:
 ### Model
 1. It will contain all the data variables that our Tank might need such as health, speed, colour, Turn speed of our Tank, etc.
 
-Image
+![](Images/Model.png)
 
 In the above we can observe the following:
 
