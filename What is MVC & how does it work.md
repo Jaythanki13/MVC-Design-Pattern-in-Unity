@@ -9,8 +9,7 @@ Tag Outscal and your newly made connections in the post so the team will get not
 >submission = 50 points
 submissions = 100 points
 500 points = Outscal Branded T-shirt 👕
-
-💡 🚀 **[Join Discord Server](https://discord.gg/J5zDscnzms) → Get your doubts solved by experts instantly**
+>
 ---
 
 ## What is MVC & how does it work
