@@ -1,4 +1,4 @@
-##  5. Implementation Example of MVC in Real Game Development
+##  Implementation Example of MVC in Real Game Development
 
 ### Game Example: Battle Tank
 
