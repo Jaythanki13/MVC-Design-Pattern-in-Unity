@@ -1,4 +1,4 @@
-## 4. Advantages & Disadvantages of MVC pattern
+## Advantages & Disadvantages of MVC pattern
 Advantages are,
 
 - Simultaneous development — Multiple developers can work simultaneously on the model, controller, and views.
