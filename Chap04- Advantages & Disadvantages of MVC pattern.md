@@ -11,5 +11,3 @@ Disadvantages are,
 
 - Code navigability — The framework navigation can be complex because it introduces new layers of abstraction and requires users to adapt to the decomposition criteria of MVC.
 - Multiple Representations — Decomposing a feature into three artefacts causes scattering. Thus, requiring developers to maintain the consistency of multiple representations at once.
-
->💡 🚀 **[Join Discord Server](https://discord.gg/J5zDscnzms) → Get your doubts solved by experts instantly**
