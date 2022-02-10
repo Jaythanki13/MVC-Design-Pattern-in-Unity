@@ -26,5 +26,3 @@ This design pattern separates code into three layers as the name suggests.
 This shows that even if the Controller does not know anything about the player's health, what level we are on, it still only catches key presses and sends out events to match.
 
 Nor does the View care how the player is controlling our game. The View only cares about showing on screen the current model state. Since the View also listens to posted events, it will pick up mouse clicks and key presses that integrate into its widgets.
-
->💡 🚀 **[Join Discord Server](https://discord.gg/J5zDscnzms) → Get your doubts solved by experts instantly**
