@@ -41,5 +41,3 @@ In the above we can observe the following:
 
 1. Data components included that will be used by our PlayerTank
 2. All the components are declared with a getter and setter here to be used in other scripts
-
->💡 🚀 **[Join Discord Server](https://discord.gg/J5zDscnzms) → Get your doubts solved by experts instantly**
