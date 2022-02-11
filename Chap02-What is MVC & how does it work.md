@@ -1,5 +1,7 @@
 ## What is MVC & how does it work
 
+Now that you have a basic understanding of design patterns. Lets deep diver into Model-View-Controller architectural design pattern.
+
 MVC design pattern introduces another abstraction layer that will help with the software planning, and also allow new programmers to navigate even in a bigger codebase. By splitting the thinking process into data, interface, and decisions, developers can reduce the number of source files that must be searched in order to add or fix functionality.
 
 ![](Images/1.png "Relationship of Model View & Controller")
