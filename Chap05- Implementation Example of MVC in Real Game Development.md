@@ -15,7 +15,26 @@ Let’s Begin with the code implementation starting by writing the logic for the
 1. It will be responsible for storing the business logic for moving the tank
 2. It will also contain the references of Model and View so that the program of the player tank can easily communicate with each other
 
-![](Images/Controller.png)
+
+```C#
+Using UnityEngine;
+
+namespace PlayerTankService
+{
+	public class Controller
+	{
+		public Model model {get; set;}
+		public View view {get; set;}
+
+		public void TankMovement(){
+			//code for adjusting the position of tank and moving forward and backward.
+		}
+		public void TankRotate(){
+			//code for adjusting the rotation of tank upto 360 degrees.
+		}
+	}
+}
+```
 
 In the above we can observe the following:
 1. Getter and Setter methods of Tank Model and Tank View script will be called in this script
@@ -25,7 +44,21 @@ In the above we can observe the following:
 1. TankView will always be a MonoBehavior class.
 2. This script will have all the details about all the visible components in our game system like tanks, bullets, enemies, random power Ups, collectables, etc.
 
-![](Images/View.png)
+```C#
+using UnityEngine;
+
+namespace PlayerTankService{
+	public class View : Monobehaviour{
+	
+		public Controller controller;
+		
+		private void FixedUpdate(){
+			controller.TankMovement(); //calling the methods here via the controller script.
+			controller.TankRotate();
+		}
+	}
+}
+```
 
 In the above we can observe the following:
 
@@ -35,7 +68,24 @@ In the above we can observe the following:
 ### Model
 1. It will contain all the data variables that our Tank might need such as health, speed, colour, Turn speed of our Tank, etc.
 
-![](Images/Model.png)
+```C#
+using UnityEngine;
+
+namespace PlayerTankService{
+	public class Model{
+	
+		public Controller controller;
+		
+		public Model(){
+			
+			//All the necessary data variables are used to move and rotate the PlayerTankService.
+			//For Example -
+			//Speed = 50f;
+			//Maxhealth = 100f;
+		}
+	}
+}
+```
 
 In the above we can observe the following:
 
