@@ -4,7 +4,7 @@ Now that you have a basic understanding of design patterns. Lets deep diver into
 
 MVC design pattern introduces another abstraction layer that will help with the software planning, and also allow new programmers to navigate even in a bigger codebase. By splitting the thinking process into data, interface, and decisions, developers can reduce the number of source files that must be searched in order to add or fix functionality.
 
-![](Images/1.png "Relationship of Model View & Controller")
+![Source: GeeksforGeeks](Images/1.png "Relationship of Model View & Controller")
 
 This design pattern separates code into three layers as the name suggests. 
 
@@ -23,7 +23,7 @@ This design pattern separates code into three layers as the name suggests.
 - Events
     - job: coordinates messages between listeners.
 
-![](Images/2.png)
+![Source: ](Images/2.png)
 
 This shows that even if the Controller does not know anything about the player's health, what level we are on, it still only catches key presses and sends out events to match.
 
