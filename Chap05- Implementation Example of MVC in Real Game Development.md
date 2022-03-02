@@ -7,7 +7,7 @@ Below we will show you how to make out tank move across the map with the help of
 
 Before Jumping on to the game code example, We would like to revise the concepts of MVC via the below snippet:
 
-![](Images/3.png)
+![Source: PowerPoint](Images/3.png)
 
 Let’s Begin with the code implementation starting by writing the logic for the movement in Controller script,
 
