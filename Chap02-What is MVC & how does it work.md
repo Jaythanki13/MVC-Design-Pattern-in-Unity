@@ -23,7 +23,7 @@ This design pattern separates code into three layers as the name suggests.
 - Events
     - job: coordinates messages between listeners.
 
-![Source: ](Images/2.png)
+![Source: Stackoverflow](Images/2.png)
 
 This shows that even if the Controller does not know anything about the player's health, what level we are on, it still only catches key presses and sends out events to match.
 
